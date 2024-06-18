@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.parent-container {
+    display: grid;
+    height: 100dvh;
+    grid-template-rows: 80px auto 60px;
+    gap: 10px;
+
+}
+
+.box {
+    border: 4px solid lightgray;
+}
+
+
+
+.main-title{
+    color: saddlebrown;
+    font-size: x-large;
+}
+
+.main-boxes {
+    height: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.world-tag{
+    color: blue;
+}
+
+.design-tag{
+    color: green;
+}
+
+.inner-title{
+    font-size: x-large;
+}
+

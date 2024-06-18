@@ -1,0 +1,26 @@
+@import '/css/core.css';
+@import '/css/header.css';
+@import '/css/footer.css';
+@import '/css/blockquote.css';
+@import '/css/blog.css';
+
+
+
+
+@media (min-width:900px) and (max-width:1600px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 30px;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1601px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 40px;
+        gap: 40px;
+    }
+}
